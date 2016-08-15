@@ -54,6 +54,6 @@ class josephus(val noPeople: Int, val stepRate: Int, val startingPosition: Int) 
   }
 }
 
-object x extends App {
+object executor extends App {
   new josephus(10,2,1).findSurvivor()
 }
